@@ -1,0 +1,103 @@
+
+.app
+{
+    overflow: hidden;
+
+
+    .APP-VIDUO
+    {   
+    
+
+
+     
+    
+        .row
+        {
+            height: -webkit-fill-available;
+            padding-bottom: 4em;
+            background: linear-gradient(to bottom, #343c4714, #292d3094);
+        }
+    
+    
+    
+        .card-logding
+        {       
+            text-align: center;
+     
+            color: #ffff;
+            padding: 1em;
+            animation-name: disply-none;
+            animation-delay: 60s;
+            animation-duration: 0s;
+            animation-fill-mode: forwards;
+    
+    
+    
+            
+            div
+            {
+                text-align: center;
+                h1
+                {    
+                    animation-name: disply-h1;
+                    animation-delay: 60s;
+                    animation-duration: 4s;
+                    animation-fill-mode: forwards;
+    
+                }
+    
+    
+            }
+        }
+    
+    .card-iframe-1
+    {
+        height: 50vh;
+        margin: 2em 0em;
+    
+    div
+    {    margin: 2em;
+        iframe
+        {
+            width: 100%;
+            height: -webkit-fill-available;
+            border-radius: 1em;        
+        }
+    }
+    
+    }
+    
+    
+    
+    }
+
+
+}
+
+
+
+@keyframes disply-none{
+
+    from      {            color: #ffff;}
+
+    to        {
+        background: #33333300;
+        color: #ffffff05;     color: #dc354500!important;   height: 0; display: none;}
+}
+
+
+
+
+@keyframes disply-h1{
+
+    from      {            
+        color: antiquewhite;
+        color: burlywood;
+        color: cadetblue;
+        color: cadetblue;}
+
+    to        {    color: darkgoldenrod;
+        color: cornflowerblue;
+        color: darkgrey;
+        color: darkkhaki; }
+}
